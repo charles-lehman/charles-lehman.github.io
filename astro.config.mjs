@@ -20,6 +20,17 @@ export default defineConfig({
             //https://starlight-utils.pages.dev/utilities/nav-links/
             starlightHeadingBadges()
         ],
+        head: [{
+            tag: 'script',
+            attrs: {
+                src: "https://cloud.umami.is/script.js",
+                defer: true,
+                'data-website-id':"6e7b9d22-c972-4096-aa1d-7b9c62aa1607",
+                
+            }
+
+
+        }],
         title: "Charles Lehman - The Wiki",
         social: {
             github: 'https://github.com/charles-lehman/charles-lehman.github.io',
@@ -27,29 +38,30 @@ export default defineConfig({
             'x.com': 'https://x.com/synchpay',
         },
         sidebar: [
-            {
-                label: 'Thoughts',
-                collapsed: true,
-                items: [
-                    // Each item here is one entry in the navigation menu.
-                    { label: 'Example Guide', slug: 'guides/example' },
-                ],
-            },
-            {
-                label: 'Recommendations',
-                collapsed: true,
-                autogenerate: { directory: 'recs' },
-            },
+            // {
+            //     label: 'Thoughts',
+            //     collapsed: false,
+            //     autogenerate: { directory: 'guides' },
+            //     // items: [
+            //     //     // Each item here is one entry in the navigation menu.
+            //     //     { label: 'Example Guide', slug: 'guides/example' },
+            //     // ],
+            // },
+            // {
+            //     label: 'Recommendations',
+            //     collapsed: false,
+            //     autogenerate: { directory: 'recs' },
+            // },
             {
                 label: 'Cool Links',
-                collapsed: true,
+                collapsed: false,
                 autogenerate: { directory: 'cool_links' },
             },
-            {
-                label: 'Reference',
-                collapsed: true,
-                autogenerate: { directory: 'reference' },
-            },
+            // {
+            //     label: 'Reference',
+            //     collapsed: false,
+            //     autogenerate: { directory: 'reference' },
+            // },
         ],
 		})],
 });
