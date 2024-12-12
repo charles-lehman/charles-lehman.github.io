@@ -1,8 +1,14 @@
 ---
-title: My first blog post
-date: 2023-07-24
+title: Why SynchPay?
+date: 2024-12-14
+draft: true
 ---
 
-## Hello
+## Why Then?
 
-Hello world!
+
+## Why Now?
+
+
+## What's Working
+

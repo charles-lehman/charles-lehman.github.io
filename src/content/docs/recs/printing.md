@@ -1,6 +1,7 @@
 ---
 title: Printed Materials
 description: Even software companies have to interact with the physical world sometimes
+draft: true
 ---
 
 ## Why?

@@ -1,12 +1,9 @@
 ---
 title: CSS Grids & Layouts
 description: A way to understand this stuff visually
+draft: true
 ---
 
 ## What?
 
-I struggled to understand exactly
-
-## Other Links
-
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+I'm not a very visual person. I've been able to pick up the back end over time

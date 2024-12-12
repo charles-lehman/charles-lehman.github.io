@@ -10,12 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.4",
     "@astrojs/starlight": "^0.29.2",
     "@lorenzo_lewis/starlight-utils": "^0.2.0",
     "astro": "^4.16.10",
+    "astro-live-code": "^0.0.4",
     "sharp": "^0.32.5",
     "starlight-blog": "^0.15.0",
     "starlight-heading-badges": "^0.3.0",
-    "starlight-links-validator": "^0.13.4"
+    "starlight-links-validator": "^0.13.4",
+    "typescript": "^5.7.2"
   }
 }

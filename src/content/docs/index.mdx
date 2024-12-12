@@ -1,11 +1,25 @@
 ---
 title: Links and Thoughts
 description: Sometimes I have good ideas; rarely do I write them down
+tableOfContents: false
+template: splash
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, Card, CardGrid } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
 
-## Categories
+<CardGrid>
+<LinkCard
+title="Product Management"
+href="/good_links/product_mgmt/"
+icon="pencil"
+description="A collection of links and frameworks about product management."
+/>
 
-### [Product Management](/cool_links/product_mgmt/)
+<LinkCard
+title="Tactical Advice"
+href="/good_links/tactical_advice/"
+description="Some actionable stuff for when your startup feels stuck."
+/>
 
+</CardGrid>

@@ -4,6 +4,7 @@ import starlightBlog from 'starlight-blog';
 import starlightLinksValidator from 'starlight-links-validator';
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import starlightHeadingBadges from 'starlight-heading-badges'
+//import liveCode from 'astro-live-code'
 
 
 
@@ -13,6 +14,7 @@ export default defineConfig({
 //	base: 'my-repo',
     integrations: [starlight({
         plugins: [
+            //liveCode(),
             starlightBlog(),
             starlightLinksValidator(), 
             starlightUtils(),
@@ -53,14 +55,19 @@ export default defineConfig({
             //     autogenerate: { directory: 'recs' },
             // },
             {
-                label: 'Cool Links',
+                label: 'Links on Links',
                 collapsed: false,
-                autogenerate: { directory: 'cool_links' },
+                autogenerate: { directory: 'good_links' },
             },
             // {
             //     label: 'Reference',
             //     collapsed: false,
             //     autogenerate: { directory: 'reference' },
+            // },
+                        // {
+            //     label: 'Research',
+            //     collapsed: false,
+            //     autogenerate: { directory: 'research' },
             // },
         ],
 		})],
