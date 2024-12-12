@@ -16,8 +16,7 @@ description: The best of the web and such
 
 1. [Building Your Product Strategy & Product Strategy Stack](https://review.firstround.com/set-non-goals-and-build-a-product-strategy-stack-lessons-for-product-leaders/)
 
-> The roadmap needs to be set at an organizational level
-![](https://blog.intercomassets.com/blog/wp-content/uploads/2015/01/Roadmap-overview.png)
+
 
 ### Good Resources
 
