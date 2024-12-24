@@ -55,20 +55,20 @@ export default defineConfig({
             //     autogenerate: { directory: 'recs' },
             // },
             {
-                label: 'Links on Links',
+                label: 'Links',
                 collapsed: false,
                 autogenerate: { directory: 'good_links' },
             },
-            // {
-            //     label: 'Reference',
-            //     collapsed: false,
-            //     autogenerate: { directory: 'reference' },
-            // },
-                        // {
-            //     label: 'Research',
-            //     collapsed: false,
-            //     autogenerate: { directory: 'research' },
-            // },
+            {
+                label: 'CSS & Code Reference',
+                collapsed: true,
+                autogenerate: { directory: 'reference' },
+            },
+                        {
+                label: 'Research',
+                collapsed: false,
+                autogenerate: { directory: 'research' },
+            },
         ],
 		})],
 });
