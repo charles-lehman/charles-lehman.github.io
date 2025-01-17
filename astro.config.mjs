@@ -11,12 +11,12 @@ import starlightHeadingBadges from 'starlight-heading-badges'
 // https://astro.build/config
 export default defineConfig({
     site: 'https://charles-lehman.github.io',
-//	base: 'my-repo',
+    //	base: 'my-repo',
     integrations: [starlight({
         plugins: [
             //liveCode(),
             starlightBlog(),
-            starlightLinksValidator(), 
+            starlightLinksValidator(),
             starlightUtils(),
             //https://starlight-utils.pages.dev/utilities/multi-sidebar/#configuration
             //https://starlight-utils.pages.dev/utilities/nav-links/
@@ -27,8 +27,8 @@ export default defineConfig({
             attrs: {
                 src: "https://cloud.umami.is/script.js",
                 defer: true,
-                'data-website-id':"6e7b9d22-c972-4096-aa1d-7b9c62aa1607",
-                
+                'data-website-id': "6e7b9d22-c972-4096-aa1d-7b9c62aa1607",
+
             }
 
 
@@ -59,16 +59,16 @@ export default defineConfig({
                 collapsed: false,
                 autogenerate: { directory: 'good_links' },
             },
+            {
+                label: 'Reference',
+                collapsed: true,
+                autogenerate: { directory: 'reference' },
+            },
             // {
-            //     label: 'Reference',
-            //     collapsed: false,
-            //     autogenerate: { directory: 'reference' },
-            // },
-                        // {
             //     label: 'Research',
             //     collapsed: false,
             //     autogenerate: { directory: 'research' },
             // },
         ],
-		})],
+    })],
 });
