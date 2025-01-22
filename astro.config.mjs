@@ -55,11 +55,12 @@ export default defineConfig({
             //     autogenerate: { directory: 'recs' },
             // },
             {
-                label: 'Links on Links',
+                label: 'Links',
                 collapsed: false,
                 autogenerate: { directory: 'good_links' },
             },
             {
+<<<<<<< HEAD
                 label: 'Reference',
                 collapsed: true,
                 autogenerate: { directory: 'reference' },
@@ -69,6 +70,17 @@ export default defineConfig({
             //     collapsed: false,
             //     autogenerate: { directory: 'research' },
             // },
+=======
+                label: 'CSS & Code Reference',
+                collapsed: true,
+                autogenerate: { directory: 'reference' },
+            },
+                        {
+                label: 'Research',
+                collapsed: false,
+                autogenerate: { directory: 'research' },
+            },
+>>>>>>> 356e24714788c66b864b1839adc9410c4f7d7ce4
         ],
     })],
 });
