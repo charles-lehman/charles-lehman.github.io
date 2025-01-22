@@ -25,6 +25,8 @@ TBU
 * [Haskoy](haskoy.ertekinn.com)
 * [Tasa Orbiter](https://github.com/adrianzwz/TASA-Typeface-Collection?ref=uncut.wtf)
 * [BDO Grotesk](https://github.com/lokalcontainer/fonts/blob/main/BDO-Grotesk/variable/BDOGrotesk-VF.ttf)
+* [Inclusive Sans](https://github.com/LivKing/Inclusive-Sans?ref=uncut.wtf)
+* [Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk?ref=uncut.wtf)
 
 ## Aggregators
 
