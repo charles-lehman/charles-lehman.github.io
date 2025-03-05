@@ -1,7 +1,7 @@
 ---
 title: CSS Grids & Layouts
 description: A way to understand this stuff visually
-draft: true
+draft: false
 ---
 
 ## What?
